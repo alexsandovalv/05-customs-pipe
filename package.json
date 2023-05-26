@@ -5,7 +5,7 @@
     "build": "ng build",
     "build:gpages": "npm run del:docs && npm run build:href && npm run copy:docs && npm run del:dist",
     "build:href": "ng build --base-href ./",
-    "copy:docs": "copyfiles ./dist/country/* ./docs -f",
+    "copy:docs": "copyfiles ./dist/pipes-app/* ./docs -f",
     "del:dist": "del-cli dist -f",
     "del:docs": "del-cli docs -f",
     "ng": "ng",
